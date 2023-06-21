@@ -1,0 +1,38 @@
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+body::after {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.bg-twitter {
+    background: #00acee;
+}
+
+.bg-content {
+    background: #292e33;
+}
+
+.bg-footer {
+    background: #424a53;
+}
+
+.h-fullscreen {
+    height: 100vh;
+}
+
+.charts-size {
+    width: 600px;
+    height: 400px;
+}
+
+.pre-scrollable {
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
